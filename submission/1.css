@@ -1,0 +1,31 @@
+.text1{
+    text-align: center;
+}
+.text2{
+    text-align: right;
+}
+.text3{
+    text-align: right;
+}
+.container {
+    display: grid;
+    align-items:top; 
+    grid-template-columns: 1fr 0fr;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 500px;
+   }
+   
+   .text {
+     font-size: 16px;
+     text-align: left;
+   }
+   .tab1{
+    tab-size: 4;
+   }
+   .text4{
+    font: times;
+    font-size: 30px;
+   }
